@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117089209-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117089209-1');
+</script>
+    <meta charset="utf-8">
+    <title>Blaine Love</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="Stylesheets/main.css">
+    <link rel="stylesheet" href="Stylesheets/queries.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+  <body>
+    <div class="site">
+
+      <div class="header1">
+        <h1><a href="index.html">BLAINE LOVE</a></h1>
+      </div>
+
+      <div class="header2">
+        <nav>
+          <ul>
+            <li><a href="index.html" class="current">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a aria-label="Github" href="https://github.com/blainelove" class="fa fa-github" target="_blank"></a></li>
+            <li><a aria-label="LinkedIn" href="https://www.linkedin.com/in/blaine-love/" class="fa fa-linkedin" target="_blank"></a></li>
+            <li><a aria-label="Email" href="mailto:blainelove94@gmail.com" class="fa fa-envelope" target="_blank"></a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+      <div class="main1">
+        <img id="headshot" src="Images/headshot.jpeg" alt="Blaine in China">
+      <p></p>
+      </div>
+
+      <div class="main2">
+        <h1>Hi friends, my name is Blaine.</h1>
+        <h2>I'm an aspiring software engineer</h2>
+        <p>
+          My professional journey has been an odd one. I started out at <strong>Lansing Community College</strong> and then went on
+          to study sales and business marketing at <strong>Western Michigan University</strong>. I'm a first gen college student who
+          grew up in the rural countryside. I traded in cornfields for skyscapers and went to work as a <strong>financial sales consultant</strong>
+          for a debt consolidation firm in NYC.           
+        </p>
+        <p>
+          I've always had a natural affinity for technology (which has made me the go to tech support person in my family).
+          By the time I learned about programming and careers in tech I was well into my business degree.
+          In March I found myself laid off from work due to the coronavirus. This ended up being a blessing in disguise
+          as it's given me the time and opportunity to reskill and reimagine my future. As I've learned to code I've become
+          more curious, inspired, and amazed at what programming can do. Whether it's tinkering with my <strong>Raspberry Pi,</strong> making a
+          video game in <strong>Python</strong>, or trying my hand at creating this website with <strong>HTML</strong> and <strong>CSS</strong>, 
+          I've felt more fullfillment and passion for my work than anything I've experienced before.
+        </p>
+        <p>It's taken me awhile, but I've finally found my path.
+          Follow me along my coding journey, and if you would ever like to get in touch, please say hi!</p>
+      </div>
+
+
+
+      <footer class="footer">
+        <a aria-label="Resume" href="Images/Resume.pdf" class="button" target="_blank"><i class="fa fa-download"></i> Download Resume</a>
+        <p></p>
+        <p></p>
+        <p>BLAINE LOVE 2020</p>
+        <a aria-label="Github" href="https://github.com/blainelove" class="fa fa-github" target="_blank"></a>
+        <a aria-label="LinkedIn" href="https://www.linkedin.com/in/blaine-love/" class="fa fa-linkedin" target="_blank"></a>
+        <a aria-label="Email" href="mailto:blainelove94@gmail.com" class="fa fa-envelope" target="_blank"></a>
+      </footer>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("myBtn").style.display = "block";
+          } else {
+              document.getElementById("myBtn").style.display = "none";
+          }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+      }
+      </script>
+
+    </div>
+  </body>
+</html>
